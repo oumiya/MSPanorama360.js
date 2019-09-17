@@ -2,6 +2,7 @@
 // MSPanorama360.js
 // ----------------------------------------------------------------------------
 // Version
+// 1.0.1 2019/09/17 デバッグコマンドを削除
 // 1.0.0 2019/09/13 リリース
 //=============================================================================
 /**
@@ -171,7 +172,6 @@
      */
     var _Spriteset_Map_createParallax381uhq38 = Spriteset_Map.prototype.createParallax;
     Spriteset_Map.prototype.createParallax = function() {
-        console.log("createParallax");
         if (_ms360_enabled) {
             // 3D遠景が設定されているマップの場合は3D遠景を作成
             var width = Graphics.width;
