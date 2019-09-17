@@ -58,15 +58,6 @@
  * ※ プラグイン中の The MIT License の表示は消さないように。
  */
 
-//=============================================================================
-// Filter_Controller
-//
-// The Controller class for a filter.
-//=============================================================================
-function Filter_Controller() {
-    this.initialize.apply(this, arguments);
-};
- 
 (function() {
     var _ms360_params = PluginManager.parameters('MSPanorama360');
     var _ms360_renderer = null;
